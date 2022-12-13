@@ -1,4 +1,65 @@
+/* general*/
+
 body {
-    background-color: brown;
-    
-}
+    background-color: rgb(16, 92, 234);
+    font-family:'Courier New', Courier, monospace;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    font-size: 1.5vw;
+    background-color: rgba(82, 64, 64, 0.651);
+    color: #e7e004;
+  }
+  
+  /* home */
+  
+  #home-body {
+   
+    height: 1000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color:  rgb(16, 92, 234);
+    color: #e7e004;
+  }
+ 
+  
+  #home-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  
+  /* about */
+  
+  #about-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1vw;
+    background-color:  rgb(16, 92, 234);
+  }
+
+  
+  /* works */
+  
+  #works-main h1 {
+    text-align: center;
+    background-color: rgb(16, 92, 234);
+    color: rgb(58, 39, 39);
+    text-shadow: 2px 2px white;
+    margin: 7vw 0 0 0;
+  }
+  .work-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: bold;
+  }
